@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Jot Biden</title>
+</head>
+<style>
+    #biden #picture{
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    #timer {
+        width: 100%;
+        color: red;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        font-family: 돋움, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 3rem;
+        font-style: inherit;
+    }
+
+</style>
+<body style="background-color: black;">
+    <div id="dollars"></div>
+    <div id="biden">
+        <img id="picture" src="img/jot_biden.png">
+    </div>
+    <div id="timer">
+        <a id="logo"></a>
+    </div>
+    <div id="scripts">
+        <script src="js/constants.js"></script>
+        <script src="js/timer.js"></script>
+    </div>
+</body>
+</html>
